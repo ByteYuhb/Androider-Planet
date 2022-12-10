@@ -65,33 +65,15 @@
 
 
 
----
-
-
 ## 思维导图
 
 ![](https://picgo-test-yuhb.oss-cn-shanghai.aliyuncs.com/imgs/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221211002635.png)
 
 ![](https://github.com/pengxurui/AndroidFamily/blob/master/images/AndroidFamily_2022_09_06.png)
 
-## 小彭的其它开源项目
-
-- [AndroidFamily](https://github.com/pengxurui/AndroidFamily) 【Android 面经 + Android 学习指南】一份帮助 Android 开发者知识积累与能力进阶的学习路线；🔥
-- [AndroidPlatforms](https://github.com/pengxurui/AndroidPlatforms) 每个 Android 开发都要收藏的系统适配手册，带你全面体系化地解读 Android 系统更新；🔥
-- [ModularEventBus](https://github.com/pengxurui/ModularEventBus) 一个 Android 事件总线框架，为你解决事件总线 “滥用” 问题；
-- [EasyTrack](https://github.com/pengxurui/EasyTrack) 基于西瓜视频前端视图树埋点方案实现的埋点方案；
-- [EasyPrivacy](https://github.com/pengxurui/EasyPrivacy) 一个帮助开发者快速解决整改问题的工具；
-- [LeetCode-Kotlin](https://github.com/pengxurui/LeetCode-Kotlin) LeetCode 高频题解 - Kotlin 版本。
-
-## Donate
-
-如果本仓库对你有帮助，可以请小彭喝杯速溶咖啡。
-
-![](https://github.com/pengxurui/AndroidFamily/blob/master/images/%E8%AF%B7%E5%B0%8F%E5%BD%AD%E5%96%9D%E6%9D%AF%E9%80%9F%E6%BA%B6%E5%92%96%E5%95%A1.png)
-
 ## License
 
-Copyright [2022] [Peng Xurui]
+Copyright [2022] [yuhb]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

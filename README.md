@@ -32,7 +32,7 @@
 
 
 
-**1、小余的[微信](https://picgo-test-yuhb.oss-cn-shanghai.aliyuncs.com/%E5%B0%8F%E4%BD%99%E7%9A%84%E5%BE%AE%E4%BF%A1.jpg)** ：欢迎你加我好友，有问题可以更加快捷的沟通。
+**1、小余的[微信](https://github.com/ByteYuhb/Androider-Planet/blob/main/imgs/%E5%B0%8F%E4%BD%99%E7%9A%84%E5%BE%AE%E4%BF%A1.jpg)** ：欢迎你加我好友，有问题可以更加快捷的沟通。
 
 **2、小余的 [公众号](https://picgo-test-yuhb.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)：** 坚持高质量原创内容，公众号后续是我主要的内容更新平台；
 

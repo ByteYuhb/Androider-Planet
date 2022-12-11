@@ -98,6 +98,7 @@
     - 1A2：[Android Input系统（二）事件分发机制](https://juejin.cn/post/7169835311868936222)
   - 1B0 图形系统
     - 1B1：[“一文读懂”系列：Android中的硬件加速](https://juejin.cn/post/7166935241108488222)
+    - 1B2：["一文读懂"系列：Android屏幕刷新机制](https://juejin.cn/post/7163858831309537294) 
 
 - 200 Android应用层
 

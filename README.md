@@ -28,13 +28,15 @@
 </p>
 
 
+
+
 **笔者致力于打造一个完整的移动端开发知识体系，帮助 Android 开发者进阶高级的学习路线，主要集中在 Android、Java，计算机基础、Flutter、NDK，性能优化等领域** 
 
 
 
 **1、小余的[微信](https://github.com/ByteYuhb/Androider-Planet/blob/main/imgs/%E5%B0%8F%E4%BD%99%E7%9A%84%E5%BE%AE%E4%BF%A1.jpg)** ：欢迎你加我好友，有问题可以更加快捷的沟通。
 
-**2、小余的 [公众号](https://picgo-test-yuhb.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)：** 坚持高质量原创内容，公众号后续是我主要的内容更新平台；
+**2、小余的 [公众号](https://mp.weixin.qq.com/s?__biz=MzkwODI1NDEwMA==&mid=2247483986&idx=1&sn=57136c9c062caa1026edf9ed35915c2b&chksm=c0cd8ca9f7ba05bfcfadad10bd97006bbb57afdd048c9c46fe57d122af834f569aa9d8df0e48&token=2142008574&lang=zh_CN#rd)：** 坚持高质量原创内容，公众号后续是我主要的内容更新平台；
 
 **3、我的 [掘金主页](https://juejin.cn/user/1011206428035661) ** ：掘金上有我历史所有的文章；
 
@@ -228,6 +230,9 @@
 - 900 计算机基础
 
   - 910 计算机组成原理
+    - 911 [计算机组成原理系列（一）：浅谈计算机中的“补码](https://juejin.cn/post/7182135650970239037)
+    - 912 [计算机组成原理系列（二）：计算机编码全解析](https://juejin.cn/post/7183630054352486455)
+    - 913 [计算机组成原理系列（三）：计算机存储器结构体系详解](https://juejin.cn/post/7184033079810326583)
   - 920 计算机网络
   - 930 计算机操作系统原理
 
@@ -278,7 +283,10 @@
 
 - E00 NDK
 
-  - C++
+  - E10 C++
+    - E11 [【重学C/C++系列（一）】：从C到C++](https://juejin.cn/post/7182926962070356023)
+    - E12 [【重学C/C++系列（二）】：extern关键字用法全解析](https://juejin.cn/post/7184392083493355557)
+    - E13 [【重学C/C++系列（三）】：这一次彻底搞懂指针和引用](https://juejin.cn/post/7185937424516644922)
   - JNI
   - Cmake
 

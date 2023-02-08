@@ -122,10 +122,30 @@ public:
 		cout << "Rectangle draw" << endl;
 	}
 };
+int max(int x, int y) {
+	return x >= y ? x : y;
+}
+int min(int x, int y) {
+	return x >= y ? y : x;
+}
+void func(int& a,int& b,int (*p)(int,int)) {
+	cout << p(a, b) << endl;
+}
+void func1(int& a, int& b, int (&p)(int, int)) {
+	cout << p(a, b) << endl;
+}
+
 void extendsTest::mainTest()
 {	
-	Circle cir;
-	const Geometry* e1 = &cir;
-	e1->Draw();
-	
+	//Circle cir;
+	//const Geometry* e1 = &cir;
+	//e1->Draw();
+	int a = 10, b = 20;
+	func1(a, b, max);
+	func1(a, b, min);
+	int (*p)(int, int);
+	p = max;
+	cout << p(a, b) << endl;
+	p = min;
+	cout << p(a, b) << endl;
 };

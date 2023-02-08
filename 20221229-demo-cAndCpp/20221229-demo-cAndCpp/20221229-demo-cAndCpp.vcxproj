@@ -148,6 +148,7 @@
     <ClCompile Include="cppHeader.cpp" />
     <ClCompile Include="extendsTest.cpp" />
     <ClCompile Include="ExternTest.cpp" />
+    <ClCompile Include="FIleTest.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Rectangel.cpp" />
     <ClCompile Include="Triangel.cpp" />
@@ -161,6 +162,7 @@
     <ClInclude Include="cppHeader.h" />
     <ClInclude Include="extendsTest.h" />
     <ClInclude Include="ExternTest.h" />
+    <ClInclude Include="FIleTest.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="Rectangel.h" />
     <ClInclude Include="Triangel.h" />

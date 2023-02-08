@@ -51,6 +51,9 @@
     <ClCompile Include="extendsTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FIleTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ExternTest.h">
@@ -84,6 +87,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="extendsTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FIleTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

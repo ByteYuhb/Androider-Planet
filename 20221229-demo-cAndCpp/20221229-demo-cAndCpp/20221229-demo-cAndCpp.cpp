@@ -8,12 +8,13 @@
 #include "Base.h"
 #include "Triangel.h"
 #include "Rectangel.h"
+#include "FIleTest.h"
 
 
 using namespace std;
 
-#include <boost/multiprecision/cpp_int.hpp>
-using namespace boost::multiprecision;
+//#include <boost/multiprecision/cpp_int.hpp>
+//using namespace boost::multiprecision;
 //测试：字符和字符地址的转换问题
 void charBug() 
 {
@@ -161,10 +162,10 @@ void intOverflow1() {
 }
 
 //
-void intOverflow2() {
-	cpp_int a = 200, b = 300, c = 400, d = 500;
-	cout << a * b * c * d << endl;
-}
+//void intOverflow2() {
+//	cpp_int a = 200, b = 300, c = 400, d = 500;
+//	cout << a * b * c * d << endl;
+//}
 
 void strTest() {
 	char str1[] = "abcdef";
@@ -209,7 +210,7 @@ struct tree
 	char tag;
 
 };
-#pragma pack
+
 void pointTest() {
 	//{
 	//	int str[] = {1,2,3};
@@ -388,8 +389,8 @@ int  main()
 
 	//Base tri = new Triangel();
 	
-	extendsTest et;
-	et.mainTest();
+	FIleTest ft;
+	ft.main();
 
 	return 0;
 }

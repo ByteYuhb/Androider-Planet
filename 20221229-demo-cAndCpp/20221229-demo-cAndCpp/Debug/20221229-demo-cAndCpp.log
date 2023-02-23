@@ -1,2 +1,24 @@
-﻿  FIleTest.cpp
+﻿  20221229-demo-cAndCpp.cpp
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(34,20): warning C4305: “参数”: 从“int”到“const _Elem”截断
+          with
+          [
+              _Elem=char
+          ]
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(34,15): warning C4309: “参数”: 截断常量值
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(35,20): warning C4305: “参数”: 从“int”到“const _Elem”截断
+          with
+          [
+              _Elem=char
+          ]
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(35,15): warning C4309: “参数”: 截断常量值
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(75,12): warning C4309: “初始化”: 截断常量值
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(80,7): warning C4309: “=”: 截断常量值
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(89,38): warning C4305: “初始化”: 从“int”到“unsigned char”截断
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(89,33): warning C4309: “初始化”: 截断常量值
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(104,9): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“const std::bitset<10>”
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(106,9): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“const std::bitset<10>”
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(360,22): warning C4227: 使用了记时错误: 忽略引用上的限定符
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(451,16): warning C4305: “初始化”: 从“double”到“float”截断
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(377): warning C4172: 返回局部变量或临时变量的地址: sum
+F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\20221229-demo-cAndCpp\20221229-demo-cAndCpp.cpp(402): warning C4715: “say”: 不是所有的控件路径都返回值
   20221229-demo-cAndCpp.vcxproj -> F:\联迪生活文档\Androider-Planet\20221229-demo-cAndCpp\Debug\20221229-demo-cAndCpp.exe

@@ -1,0 +1,3 @@
+include ':thirdsocall'
+include ':app'
+rootProject.name = "hello-jni"

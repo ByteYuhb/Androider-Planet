@@ -54,6 +54,21 @@
     <ClCompile Include="FIleTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DeepCopy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObserve.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ExternTest.h">
@@ -90,6 +105,21 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="FIleTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeepCopy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObserve.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

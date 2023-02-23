@@ -8,9 +8,13 @@ class Person {
 public :
 	string m_name;
 	int age;
-	~Person() {
-		cout << m_name << endl;
-	}
+	/*Person(const Person& p) {
+		this->age = p.age;
+		this->m_name = ;
+	}*/
+	//~Person() {
+	//	cout << m_name << endl;
+	//}
 };
 void writeFile(string filename) {
 	//二进制文件
@@ -55,5 +59,26 @@ void FIleTest::main() {
 
 	writeFile("file1.txt");
 	readFile("file1.txt");
+
+	//string filename = "file1.txt";
+	////二进制文件
+	//ofstream ofs1;
+	//ofs1.open(filename, ios::out | ios::binary);
+	//if (!ofs1.is_open()) {
+	//	return;
+	//}
+	//Person per = { "123",10 };
+
+	//ofs1.write((const char*)&per, sizeof(Person));
+	//ofs1.close();
+
+	//ifstream ifs1(filename, ios::in);
+
+	//Person per1;
+	//ifs1.read((char*)&per1, sizeof(Person));
+
+	//cout << per1.m_name << ":" << per1.age << endl;
+
+	//ifs1.close();
 	
 }

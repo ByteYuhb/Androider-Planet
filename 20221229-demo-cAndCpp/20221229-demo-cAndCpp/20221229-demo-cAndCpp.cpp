@@ -9,6 +9,9 @@
 #include "Triangel.h"
 #include "Rectangel.h"
 #include "FIleTest.h"
+#include "DeepCopy.h"
+#include "Singleton.h"
+#include "TestObserve.h"
 
 
 using namespace std;
@@ -377,6 +380,35 @@ int maxab(int a,int b) {
 	return a > b ? a : b;
 }
 #include "extendsTest.h"
+
+void* say(int type,void* pArgs) {
+	switch (type) 
+	{
+		case 0:
+		{
+			double* d = (double*)pArgs;
+			return d;
+		}	
+		case 1:
+		{
+			int* i = (int*)pArgs;
+			return i;
+		}		
+	}
+	int* a = nullptr;
+	double* b = nullptr;
+	b = (double*)malloc(sizeof(double));
+	a = (int*)malloc(sizeof(double));
+}
+void* _say(void* pArgs) {
+	cout << "void*" << endl;
+	return pArgs;
+}
+template<typename T>
+T _say(T t) {
+	cout << "mbbc" << endl;
+	return t;
+}
 int  main()
 {
 	//maxab(3, 4);
@@ -389,9 +421,41 @@ int  main()
 
 	//Base tri = new Triangel();
 	
-	FIleTest ft;
-	ft.main();
+	//DeepCopy dc;
+	//dc.main();
 
+	//Singleton::getInstance()->doSomething();
+
+	/*TestObserve::test();*/
+	int* a = nullptr;
+	double* b = nullptr;
+	b = (double*)malloc(sizeof(double));
+	a = (int*)malloc(sizeof(double));
+
+	int i = 5;
+	int* pi = &i;
+	void* pv = pi;
+	//int* pi1 = pv;//编译错误，void*类型的指针不能初始化为指定类型的指针
+	//cout << *pv << endl;//表达式必须是指向完整对象类型的指针
+	
+	//cout<<"(int*)pv:" << (int*)pv << endl;
+	//cout<<"(double*)pv:" << (double*)pv << endl;
+	//cout <<"*(int*)pv:" << *(int*)pv << endl;
+	//cout <<"*(double*)pv:" << *(double*)pv << endl;
+
+	cout << (void*)0 << endl;
+	cout << (void*)NULL << endl;
+	cout << (void*)nullptr << endl;
+
+	int _a = 5;
+	float f = 10.8;
+	int* _pi = &_a;
+	float* pf = &f;
+
+	cout << *(int*)_say(_pi) << endl;
+	cout << *(float*)_say(pf) << endl;
+	cout <<*_say(_pi) << endl;
+	cout << *_say(pf) << endl;
 	return 0;
 }
 //int main()

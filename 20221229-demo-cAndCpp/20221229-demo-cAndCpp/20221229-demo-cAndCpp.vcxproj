@@ -146,11 +146,16 @@
     <ClCompile Include="cMain.c" />
     <ClCompile Include="Complex.cpp" />
     <ClCompile Include="cppHeader.cpp" />
+    <ClCompile Include="DeepCopy.cpp" />
     <ClCompile Include="extendsTest.cpp" />
     <ClCompile Include="ExternTest.cpp" />
     <ClCompile Include="FIleTest.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Observer.cpp" />
     <ClCompile Include="Rectangel.cpp" />
+    <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="TestObserve.cpp" />
     <ClCompile Include="Triangel.cpp" />
     <ClCompile Include="_extern.cpp" />
   </ItemGroup>
@@ -160,11 +165,16 @@
     <ClInclude Include="cMain.h" />
     <ClInclude Include="Complex.h" />
     <ClInclude Include="cppHeader.h" />
+    <ClInclude Include="DeepCopy.h" />
     <ClInclude Include="extendsTest.h" />
     <ClInclude Include="ExternTest.h" />
     <ClInclude Include="FIleTest.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="Observer.h" />
     <ClInclude Include="Rectangel.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Subject.h" />
+    <ClInclude Include="TestObserve.h" />
     <ClInclude Include="Triangel.h" />
     <ClInclude Include="_extern.h" />
   </ItemGroup>

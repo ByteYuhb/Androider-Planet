@@ -1,0 +1,14 @@
+//
+// Created by Administrator on 2023/3/29.
+//
+
+#ifndef OPENGGL_SAMPLE_TRIANGLE_SAMPLETRIANGLE_H
+#define OPENGGL_SAMPLE_TRIANGLE_SAMPLETRIANGLE_H
+
+
+class SampleTriangle {
+
+};
+
+
+#endif //OPENGGL_SAMPLE_TRIANGLE_SAMPLETRIANGLE_H
